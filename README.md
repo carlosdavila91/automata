@@ -17,4 +17,3 @@ This will give you the current position of your mouse and the RGB color of the p
 * `position`: returns the position of the mouse given a certain x,y coordinates
 * `screenshot`: produces a screenshot
 * `getpixel`: get an RGB tuple for the color of a pixel at specific coordinates
-# automating
