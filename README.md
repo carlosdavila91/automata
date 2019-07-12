@@ -2,7 +2,7 @@
 
 Here you'll be able to find some automation programs written as a didactic way of learning python.
 
-The code from this project has been reproduced from http://automatetheboringstuff.com/
+The code for this project has been reproduced from http://automatetheboringstuff.com/
 
 ## Get the current position of the mouse in the screen and the correspondent RGB color
 
