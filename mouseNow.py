@@ -7,7 +7,6 @@ Created on Fri Jul 12 15:49:17 2019
 """
 
 #! python3
-# mouseNow.py - Displays the mouse cursor's current position.
 import pyautogui
 
 print('Press Ctrl-C to quit.')
@@ -29,4 +28,5 @@ try:
         print(positionStr, end='')
 
 except KeyboardInterrupt:
+
     print('\nDone.')
