@@ -14,22 +14,27 @@ driver.get('https://sede.administracionespublicas.gob.es/icpplus/index.html')
 wait = ui.WebDriverWait(driver, 10)
 wait.until(page_is_loaded)
 
+province = 'Barcelona'
+certificates = 'Certificados UE.'
+tramit = 'POLICIA-CERTIFICADOS UE'
+passport_number = 'xxxxxxxxx'
+name = 'xxxxxxxxx'
 
 for x in range (0,5):
     provincias = driver.find_elements_by_tag_name('option')
     for p in provincias:
-        if p.text == 'Barcelona':
+        if p.text == province:
             p.click()
             break
 
     certificados = driver.find_elements_by_tag_name('a')
     for c in certificados:
-        if c.text == 'Certificados UE.':
+        if c.text == certificates:
             c.click()
             break
     tramites = driver.find_elements_by_tag_name('option')
     for t in tramites:
-        if t.text == 'POLICIA-CERTIFICADOS UE':
+        if t.text == tramit:
             t.click()
             break
 
@@ -42,11 +47,9 @@ for x in range (0,5):
     driver.find_element_by_xpath("//input[@value='Pasaporte / Documento de identidad']").click()
 
     pasaporte = driver.find_element_by_id('txtIdCitado')
-    passport_number = 'xxxxxxxxx'
     pasaporte.send_keys(passport_number)
 
     nombre = driver.find_element_by_id('txtDesCitado')
-    name = 'xxxxxxxxx'
     nombre.send_keys(name)
 
     break
