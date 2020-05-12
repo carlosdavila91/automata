@@ -19,13 +19,9 @@ This will give you the current position of your mouse and the RGB color of the p
 * `screenshot`: produces a screenshot
 * `getpixel`: get an RGB tuple for the color of a pixel at specific coordinates
 
-## Automatically fill out the form to obtain an appointment for obtaining the NIE in Spain for EU citizens
+## Automatically fill out an online form
 
-Filling forms could get tedious some times. In this case, when someone relative to me tryed to get an appointment for obtaining the NIE document in Spain had to fill the form again and again.
-
-It turns out that you can only achieve the appointment by filling in the form at 8 a.m. every Monday before all the appointments run out, and repeating the process could bring you to get it, as several forum webs suggest.
-
-This is how I get to develop this tool to ease this repetitive task. It is implemented for a EU citizen that wants to get his/her NIE document, although it could serve in other cases by modifying some parameters.
+Filling forms could get tedious some times. This tool is aimed to ease this repetitive task. As a use case, it is implemented to get an appointment for a EU citizen that wants to get his/her NIE document, although it could serve in other cases by modifying some parameters.
 
 ### Requirements
 
