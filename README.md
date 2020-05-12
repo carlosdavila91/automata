@@ -21,11 +21,11 @@ This will give you the current position of your mouse and the RGB color of the p
 
 ## Automatically fill out the form to obtain an appointment for obtaining the NIE in Spain for EU citizens
 
-Filling forms could get tedious some times. In this case, when some relatives to me tryed to get an appointment for obtaining the NIE document in Spain had to fill the form again and again.
+Filling forms could get tedious some times. In this case, when someone relative to me tryed to get an appointment for obtaining the NIE document in Spain had to fill the form again and again.
 
 It turns out that you can only achieve the appointment by filling in the form at 8 a.m. every Monday before all the appointments run out, and repeating the process could bring you to get it, as several forum webs suggest.
 
-This is how I get to develop this tool to ease this repetitive task. In this case is implemented for a EU citizen that wants to get his/her NIE document, although it could serve in other cases by modifying some parameters.
+This is how I get to develop this tool to ease this repetitive task. It is implemented for a EU citizen that wants to get his/her NIE document, although it could serve in other cases by modifying some parameters.
 
 ### Requirements
 

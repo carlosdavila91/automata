@@ -9,6 +9,7 @@ def page_is_loaded(driver):
     return driver.find_elements_by_tag_name('body') != None
 
 driver = webdriver.Firefox()
+
 driver.get('https://sede.administracionespublicas.gob.es/icpplus/index.html')
 
 wait = ui.WebDriverWait(driver, 10)
